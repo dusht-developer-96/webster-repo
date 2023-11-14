@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Home Page</title>
+</head>
+<body>
+
+  <header>
+    <nav class="list">
+      <ul >
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="auth-buttons">
+          <button onclick="showLoginForm()">Login</button>
+          <button onclick="showSignupForm()">Sign up</button>
+        </li>
+        <li><img src="https://tse1.mm.bing.net/th?id=OIP.MuxSZ7VKNc4gkkZmK851jgAAAA&pid=Api&P=0&h=180" width="130px" alt=""></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+    <img class="image" src="download.jpeg" width="500px" alt="">
+    <div class="text">
+        <h1>Welcome to MNNIT MESS</h1>
+        <p>"From Our Kitchen to Your Heart"</p>
+        <p>"Respect the Plate, Don't Waste!"</p>
+    </div>
+  </section>
+  <hr>
+
+  <div id="login-form" class="form-container">
+    <h2>LogIn</h2>
+
+<form action="/action_page.php">
+  <label for="name">Enter your REG.NO: <label><br>
+  <input type="text" id="name" name="name" value=""><br>
+  <label for="password">password</label><br>
+  <input type="text" id="password" name="password" value=""><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+    <!-- Your login form content goes here -->
+  </div>
+  <hr>
+
+  <div id="signup-form" class="form-container">
+    <h2>Sign up</h2>
+    <!-- Your signup form content goes here -->
+  </div>
+
+</body>
+</html>
